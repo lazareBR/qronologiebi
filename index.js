@@ -6,7 +6,7 @@ const allTopics = document.querySelectorAll(".topic-list li");
 
 const dropDown = document.querySelectorAll("[data-dropdown-button]");
 const dropdown = document.querySelectorAll(".dropDown");
-const something = "gelaa";
+const something = "gelaa axali gela";
 dropdown.forEach((drop, index) => {
   let drops = drop.children;
 
