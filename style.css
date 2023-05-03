@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  /* background-color: rgb(255, 255, 255); */
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-container {
+  border: 3px solid rgb(0, 0, 0);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.box {
+  border: 1px solid rgba(3, 3, 3, 0.8);
+  background-color: #3797f1be;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 10px;
+  padding: 3px;
+  text-align: center;
+  color: rgb(23, 22, 22);
+  line-height: 25px;
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.4);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dragging {
+  opacity: 0.5;
+}
+.correct {
+  background-color: rgb(70, 239, 70);
+}
+.wrong {
+  background-color: rgb(248, 72, 72);
+}
+.selected {
+  background-color: yellow;
+}
+#check {
+  background-color: rgb(16, 231, 16);
+  height: 40px;
+  width: 200px;
+}
+#up {
+  opacity: 0;
+
+  background-color: yellow;
+}
+#down {
+  opacity: 0;
+
+  background-color: yellow;
+}
+.buttons {
+}
