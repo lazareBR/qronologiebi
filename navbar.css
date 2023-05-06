@@ -79,12 +79,15 @@ a {
 }
 @media screen and (max-width: 500px) {
   #main-header {
-    position: absolute;
+    /* position: absolute;
     top: -10px;
-    right: 20px;
+    right: 20px; */
     font-size: clamp(21px, 50%, 50px);
   }
-
+  .header {
+    width: 100vw;
+    justify-content: space-around;
+  }
   .topic-list {
     margin-top: 40px;
     flex-direction: column;
@@ -101,9 +104,10 @@ a {
   }
   .menu {
     display: block;
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 0;
+    left: 0; */
+
     width: 60px;
     z-index: 5;
   }
@@ -117,14 +121,20 @@ a {
   }
   .buttons {
     display: flex;
+    width: 100vw;
+    height: 45px;
     margin-top: 3px;
+    touch-action: manipulation;
   }
-  /* #up {
-    opacity: 1;
+  #up {
+    flex-grow: 3.5;
+  }
+  #check {
+    flex-grow: 3;
   }
   #down {
-    opacity: 1;
-  } */
+    flex-grow: 3.5;
+  }
 }
 
 /* .boxMargin {

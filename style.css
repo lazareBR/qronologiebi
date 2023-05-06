@@ -7,6 +7,9 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.header {
+  display: flex;
+}
 .box-container {
   border: 3px solid rgb(0, 0, 0);
   padding: 10px;
@@ -43,8 +46,7 @@ body {
 }
 #check {
   background-color: rgb(16, 231, 16);
-  height: 40px;
-  width: 200px;
+  /* height: 40px; */
 }
 #up {
   opacity: 0;
@@ -55,6 +57,4 @@ body {
   opacity: 0;
 
   background-color: yellow;
-}
-.buttons {
 }
