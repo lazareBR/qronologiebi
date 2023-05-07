@@ -125,6 +125,8 @@ a {
     height: 45px;
     margin-top: 3px;
     touch-action: manipulation;
+    color: black;
+    border: 1px solid black;
   }
   #up {
     flex-grow: 3.5;
