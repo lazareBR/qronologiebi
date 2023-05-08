@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow-x: hidden;
   /* background-color: rgb(255, 255, 255); */
 }
 .main-container {
@@ -44,9 +45,11 @@ body {
 .selected {
   background-color: yellow;
 }
-#check {
+.check {
   background-color: rgb(16, 231, 16);
-  /* height: 40px; */
+  margin-top: 3px;
+  height: 45px;
+  width: 200px;
 }
 #up {
   opacity: 0;

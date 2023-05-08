@@ -126,16 +126,20 @@ a {
     margin-top: 3px;
     touch-action: manipulation;
     color: black;
-    border: 1px solid black;
   }
   #up {
     flex-grow: 3.5;
+    border: 1px solid black;
   }
   #check {
+    margin-top: auto;
+    width: auto;
     flex-grow: 3;
+    border: 1px solid black;
   }
   #down {
     flex-grow: 3.5;
+    border: 1px solid black;
   }
 }
 
