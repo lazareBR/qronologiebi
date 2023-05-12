@@ -408,7 +408,7 @@ const topics = [
       "კარლოვიცის ზავი",
     ],
   ],
-  []
+  [],
 ];
 
 function shuffleArray(array) {
