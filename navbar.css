@@ -50,7 +50,7 @@
   /* margin: 0; */
   position: absolute;
   top: 101%;
-  width: 100vw;
+
   display: flex;
   flex-direction: column;
   padding: 6px;
